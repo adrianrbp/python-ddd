@@ -1,0 +1,53 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python virtual environments
+.venv/
+env/
+venv/
+
+# uv cache
+.uv/
+
+# pip/uv wheel cache
+__pypackages__/
+pip-wheel-metadata/
+
+# Nix
+/result
+/result-*
+*.drv
+*.gcno
+*.gcda
+*.profraw
+*.profdata
+.nox/
+.nix-gc-roots/
+.cache/
+
+# Nix flake lock
+flake.lock
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Tests & coverage
+.coverage
+coverage.xml
+htmlcov/
+
+# Misc
+*.egg-info/
+dist/
+build/
